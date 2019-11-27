@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:pr-86-6-boot-vault-gke/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:pr-86-6-boot-vault-gke/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:pr-86-6-boot-vault-gke/prow:hmacToken
